@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 import { Provider } from "react-redux";
 import AppRouter from "./router/AppRouter";
 import configureStore from "./store/configureStore";
 import { addExpense } from "./actions/expenses";
 import { setTextFilter } from "./actions/filters";
 import getVisibleExpenses from "./selectors/expenses";
+import "normalize.css/normalize.css";
 const store = configureStore();
 
 // store.dispatch(
