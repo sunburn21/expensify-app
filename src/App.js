@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.scss";
+import "./App.css";
 import { Provider } from "react-redux";
 import AppRouter from "./router/AppRouter";
 import configureStore from "./store/configureStore";
