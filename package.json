@@ -31,6 +31,7 @@
     "moment": "^2.22.2",
     "node-sass": "^4.9.0",
     "normalize.css": "^8.0.0",
+    "numeral": "^2.0.6",
     "object-assign": "4.1.1",
     "path": "^0.12.7",
     "postcss-flexbugs-fixes": "3.2.0",
@@ -60,7 +61,8 @@
     "start": "node server/server.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "run-dev-server": "node scripts/start.js "
   },
   "jest": {
     "collectCoverageFrom": [
