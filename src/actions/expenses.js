@@ -71,3 +71,14 @@ export const startRemoveExpense = ({ id }) => {
       });
   };
 };
+
+export const startEditExpense = (id, expense) => {
+  return dispatch => {
+    database
+      .ref(`expenses/${id}`)
+      .update(expense)
+      .then(snapshot => {
+        dispatch(editExpense(id, expense));
+      });
+  };
+};
