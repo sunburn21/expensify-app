@@ -1,7 +1,7 @@
 import { firebase } from "./firebase/firebase";
 import ReactDOM from "react-dom";
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { Provider } from "react-redux";
 import AppRouter, { history } from "./router/AppRouter";
 import configureStore from "./store/configureStore";
