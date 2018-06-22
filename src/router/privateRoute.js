@@ -12,7 +12,7 @@ export const PrivateRoute = ({
     component={props =>
       isAuthenticated ? (
         <div>
-          <Header /> <Component />{" "}
+          <Header /> <Component {...props} />{" "}
         </div>
       ) : (
         <Redirect to="/" />
