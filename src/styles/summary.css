@@ -1,0 +1,18 @@
+.summary {
+  background: #f7f7f7;
+  margin-bottom: 3.2rem;
+  padding: 3.2rem 0;
+}
+
+.summary__title {
+  font-weight: 300;
+  margin: 0;
+}
+
+.summary__title > span {
+  font-weight: 700;
+}
+
+.summary__actions {
+  margin-top: 1.6rem;
+}
